@@ -22,8 +22,8 @@ jobs:
       repository-projects: read
       security-events: read
       statuses: read
-    runs-on: macos-11
-    if: github.repository == 'seleniumhq/selenium-ide'
+    runs-on: ubuntu-latest
+    if: github.repository == 'EdouardZemb/selenium-ide'
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2
