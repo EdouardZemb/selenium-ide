@@ -97,6 +97,18 @@
           ]
         }
       ]
+    },
+    {
+      "id": "814ff9f9-8edc-4362-b533-93f9141a0d79",
+      "name": "Toto",
+      "commands": [
+        {
+          "id": "6e615a49-16cb-46ee-b3ae-c238f92e4156",
+          "command": "open",
+          "target": "https://petstore.octoperf.com/actions/Catalog.action",
+          "value": ""
+        }
+      ]
     }
   ],
   "snapshot": {
