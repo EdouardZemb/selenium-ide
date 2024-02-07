@@ -37,7 +37,9 @@ jobs:
         run: pnpm -r i
       - name: Build side-runner and selenium-ide
         run: npm run build
-      - name : Commande ls
-        run: ls
+      - name : Commande ls tests
+        run: ls \tests\
+      - name: Commande ls jpetstore
+        run: ls \tests\jpetsore
       - name: Run selenium tests
         run: npm run test-selenium-windows
