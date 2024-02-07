@@ -40,6 +40,6 @@ jobs:
       - name : Commande ls tests
         run: ls .\tests\
       - name: Commande ls jpetstore
-        run: ls .\tests\jpetsore\
+        run: ls .\tests\jpetstore\
       - name: Run selenium tests
         run: npm run test-selenium-windows
