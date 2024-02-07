@@ -38,4 +38,4 @@ jobs:
       - name: Build side-runner and selenium-ide
         run: npm run build
       - name: Run selenium tests
-        run: npm run test-selenium
+        run: npm run test-selenium-windows
